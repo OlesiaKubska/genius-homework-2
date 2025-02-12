@@ -1,0 +1,90 @@
+:root {
+    --color-primary-dark: #011C44;
+    --color-primary-light: #FFFFFF;
+    --color-accent: #2B7FFF;
+    --color-background-dark: #011F4A;
+    --color-button: #FAF4EA;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    color: var(--color-primary-dark );
+    background-color: var(--color-background-light );
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header-link {
+    color: var(--color-primary-dark );
+    text-decoration: none;
+}
+
+.header-link:hover {
+    color: var(--color-accent );
+    font-weight: 700;
+}
+
+.hero-title {
+    font-family: 'Play', sans-serif;
+    color: var(--color-accent );
+    font-weight: 700;
+    font-size: 140px;
+}
+
+.hero-button {
+    font-weight: 600;
+    color: var(--color-button );
+    background-color: var(--color-accent );
+}
+
+.hero-button:hover {
+    color: var(--color-accent );
+    background-color: transparent;
+}
+
+.hero-text {
+    font-size: 12px;
+}
+
+.section-title {
+    font-family: 'Play', sans-serif;
+    color: var(--color-primary-dark );
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.accent {
+    color: var(--color-accent );
+}
+
+.about-text {
+    font-size: 22px;
+}
+
+.accent-bold {
+    font-weight: 600;
+}
+
+.form-title {
+    font-weight: 600;
+    font-size: 22px;
+    color: var(--color-primary-light );
+}
+
+.form {
+    background-color: var(--color-background-dark );
+}
+
+.form-button {
+    font-weight: 600;
+    color: var(--color-primary-light );
+    background-color: var(--color-accent );
+}
+
+.form-button:hover {
+    background-color: transparent;
+}
