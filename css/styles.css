@@ -45,6 +45,7 @@
     --color-accent: #2B7FFF;
     --color-background-dark: #011F4A;
     --color-button: #FAF4EA;
+    --color-accent-text: #747272;
 }
 
 body {
@@ -148,4 +149,34 @@ button {
 
 .form-button:hover {
     background-color: transparent;
+}
+
+.form-text {
+    color: var(--color-accent-text );
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.footer {
+    background-color: var(--color-primary-dark );
+}
+
+.footer-link {
+    color: var(--color-primary-light );
+    font-size: 16px;
+    line-height: 1.1;
+}
+
+.address-link {
+    color: var(--color-primary-light );
+    font-size: 16px;
+    line-height: 1.1;
+    font-style: normal;
+}
+
+.footer-text {
+    color: var(--color-accent-text );
+    font-size: 13px;
+    line-height: 1.15;
+    font-style: normal;
 }
