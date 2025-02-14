@@ -48,6 +48,14 @@
     --color-accent-text: #747272;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
@@ -69,6 +77,12 @@ button {
     cursor: pointer;
 }
 
+.container {
+    width: 100%;
+    max-width: 1288px;
+    margin: 0 auto;
+}
+
 .header-link {
     color: var(--color-primary-dark );
 }
@@ -78,6 +92,10 @@ button {
     font-weight: 700;
 }
 
+.section {
+    padding: 48px 0;
+} 
+
 .hero-title {
     font-family: 'Play', sans-serif;
     color: var(--color-accent );
@@ -86,6 +104,7 @@ button {
 }
 
 .hero-button {
+    padding: 16px 32px;
     font-weight: 600;
     color: var(--color-button );
     background-color: var(--color-accent );
@@ -104,6 +123,7 @@ button {
 }
 
 .section-title {
+    margin-bottom: 48px;
     font-family: 'Play', sans-serif;
     color: var(--color-primary-dark );
     font-weight: 700;
@@ -113,6 +133,10 @@ button {
 
 .accent {
     color: var(--color-accent );
+}
+
+.about-title {
+    margin-bottom: 40px;
 }
 
 .about-text {
@@ -140,6 +164,7 @@ button {
 }
 
 .form-button {
+    padding: 16px 32px;
     font-weight: 600;
     color: var(--color-primary-light );
     background-color: var(--color-accent );
