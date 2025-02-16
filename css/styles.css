@@ -126,6 +126,15 @@ button {
     padding: 48px 0;
 } 
 
+.hero {
+    background-image: url('../images/hero.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
 .hero-container {
     max-width: 528px;
     margin-left: 120px;
@@ -203,6 +212,12 @@ button {
     margin-bottom: 0;
 }
 
+.about-img {
+    border-radius: 400px 400px;
+    max-width: 327px;
+    box-shadow: 0px 4px 4px 0px #A8C6F533;
+}
+
 .accent-bold {
     font-weight: 600;
 }
@@ -239,6 +254,36 @@ button {
     justify-content: center;
     text-align: center;
     gap: 16px;
+}
+
+.procedures-article {
+    width: 344px;
+    height: 456px;
+    border-radius: 4px 120px 4px 120px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.procedures-article::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: linear-gradient(180.05deg, rgba(1, 28, 68, 0) 48.53%, rgba(1, 28, 68, 0.725825) 84.61%, var(--color-primary-dark) 101.39%);
+    border-radius: inherit;
+}
+
+.procedure-mask {
+    background-image: url("../images/mask.jpg");
+}
+
+.procedure-botox {
+    background-image: url("../images/botox.jpg");
+}
+
+.procedure-cleaning {
+    background-image: url("../images/cleaning.jpg");
 }
 
 .contacts-container {
