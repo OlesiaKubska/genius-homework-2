@@ -22,14 +22,13 @@
     src: url('../fonts/roboto-v47-latin-700.woff2') format('woff2');
 }
 
-
-/* @font-face {
+@font-face {
     font-display: swap;
     font-family: 'Play';
     font-style: normal;
     font-weight: 400;
     src: url('../fonts/play-v19-latin-regular.woff2') format('woff2'); 
-  } */
+  }
 
 @font-face {
     font-display: swap; 
@@ -115,11 +114,13 @@ button {
 
 .header-link {
     color: var(--color-primary-dark );
+    fill: var(--color-primary-dark );
 }
 
 .header-link:hover {
     color: var(--color-accent );
-    font-weight: 700;
+    /* font-weight: 700; */
+    fill: var(--color-accent );
 }
 
 .section {
@@ -245,8 +246,29 @@ button {
     border-radius: 32px;
 }
 
+.why-icon {
+    fill: var(--color-accent );
+}
 .procedures-title {
     text-align: center;
+}
+
+.procedures-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    fill: var(--color-background-dark );
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid var(--color-background-dark );
+}
+
+.procedures-button:hover {
+    background-color: var(--color-accent );
+    fill: var(--color-primary-light );
 }
 
 .procedures-list {
@@ -337,6 +359,10 @@ button {
     line-height: 1.1;
 }
 
+.footer-link:hover {
+    color: var(--color-accent );
+}
+
 .address-link {
     color: var(--color-primary-light );
     font-size: 16px;
@@ -344,9 +370,21 @@ button {
     font-style: normal;
 }
 
+.address-link:hover {
+    color: var(--color-accent );
+}
+
 .footer-text {
     color: var(--color-accent-text );
     font-size: 13px;
     line-height: 1.15;
     font-style: normal;
+}
+
+.address-icon {
+    fill: var(--color-primary-light );
+}
+
+.address-icon:hover {
+    fill: var(--color-accent );
 }
